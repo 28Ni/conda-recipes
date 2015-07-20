@@ -1,0 +1,25 @@
+package:
+  name: luabind
+  version: 0.9.1
+
+source:
+  fn: v0.9.1.tar.gz
+  url: https://github.com/luabind/luabind/archive/v0.9.1.tar.gz
+
+build:
+  number: 0
+  binary_relocation: true
+
+requirements:
+  build:
+    - lua
+    - boost
+  run:
+    - lua
+    - boost
+  run:
+
+about:
+  home: http://www.rasterbar.com/products/luabind/docs.html
+  license: 
+  summary: Luabind is a library that helps you create bindings between C++ and Lua. 
