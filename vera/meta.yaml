@@ -1,5 +1,5 @@
 package:
-  name: vera++
+  name: vera
   version: 1.3.0
 
 source:
@@ -15,12 +15,10 @@ requirements:
     - cmake
     - boost
     - tcl
-    - lua
     - python 2.7*
   run:
     - boost
     - tcl
-    - lua
     - python 2.7*
 
 test:
