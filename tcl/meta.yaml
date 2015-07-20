@@ -1,0 +1,15 @@
+package:
+  name: tcl
+  version: 8.6.4
+
+source:
+  fn: tcl8.6.4-src.tar.gz
+  url: http://prdownloads.sourceforge.net/tcl/tcl8.6.4-src.tar.gz
+
+build:
+  number: 0
+  binary_relocation: true
+
+about:
+  home: http://www.tcl.tk/
+  license: BSD
